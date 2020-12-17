@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayStation/FIFA 2020</title>
+       <!-- CSS only -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <style>
+            body{
+    font-family: sans-serif;
+    color: #8D1BA5;
+    width: 100%;
+    background-color: #1f1f1f;
+}
+nav{
+    color: ;
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.links{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+button{
+    padding: 4px 13px;
+    border: none;
+    background-color: rgb(219, 71, 115);
+}
+nav > h1{
+    display: flex;
+    align-items: flex-end;
+}
+.square{
+    color: blue;
+    width: 55px;
+    height: 55px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.btv{
+    display: none;
+}
+.btv > div{
+    margin: 4px;
+    width: 20px;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+}
+.contener{
+    margin-left: 30%;
+    width: 40%;
+    height: 200px;
+    margin-right: 5%;
+    text-align: center;
+    margin-top: 100px;
+}
+.contener1{
+                color: white;
+                margin-left: 0%;
+                width: 100%;
+                height: 200px;
+                margin-top: 100px;
+            }
+            .contener1{
+                text-align: center;
+            } 
+.nav-el{
+    font-size: 10px;
+    width: 100%;
+    height: 280px;
+    background-color: #232323;
+    color: white;
+    justify-content: space-around;
+}
+.nav-el > div{
+    margin-left: 12%;
+    margin-right: 5%;
+    
+}
+.img{
+    padding: 40px 50px;
+}
+
+@media(max-width: 1000px){
+    .text{
+        flex-direction: column;
+    }
+    button{
+        margin: 10px;
+    }
+    .picture{
+        width: 100%;
+    }
+    .info{
+        width: 100%;
+    }
+    .links{
+        display: none;
+    }
+    .btv{
+    display: inline;
+}
+    .contener1{
+        flex-direction: column;
+        font-size: 15px;
+        height: 350px;
+    }
+    .img{
+        flex-direction: column;
+        width: 200%;
+    }
+    .nav-el{
+        flex-direction: column;
+        height: 600px;
+    }
+
+}
+        </style>
+    </head>
+<body>
+    <nav>
+        <h1>
+            <div class="square">Ps</div>Игры
+            <img src="controller.svg" width="50px" alt="">
+        </h1>
+        <div class="links">
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Поиск..." aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Поиск</button>
+              </form>
+              <a class="btn btn-outline-primary" style="margin: 10px;" href="index.html" role="button">Home</a>
+        </div>
+        <a href="#" class="btv">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+    </nav>
+        <div class="img">
+            <img src="FIFA.PNG" alt="">    
+        </div>
+        <div class="contener1">
+            <div class="contener">
+                <h3>Игры</h3>
+                 <p>Любишь игры? Военное и историческое игр, драмы и криминальные боевики, Стелс и экшены, триллеры и фантастика – любой игрок найдет здесь игр по вкусу. Выбери жанр, который соответствует твоему настроению, и начинай играт на ...... прямо сейчас на .....</p>
+            </div>
+        </div>
+        <nav class="nav-el">
+          <img src="Снимок.PNG" alt="">
+         </nav>
+</body>
+</html>

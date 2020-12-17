@@ -3,14 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index2</title>
-    <link rel="stylesheet" href="index2.css">
-</head>
+    <title>PlayStation/Home</title>
+       <!-- CSS only -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+       <link rel="stylesheet" href="index.css">
+       
+        <style>
+            .card{
+                margin-left: 10%;
+                color: white;
+                margin-bottom: 50px;
+                padding: 20px 20px;
+                background-image: url(1867226.jpg);
+            }
+            .nav-eq{
+                padding: 50px;
+                justify-content: center;
+            }
+        </style>
+    </head>
 <body>
-    <button class="btn">
-        <div></div>
-        <div></div>
-        <a class="click">Click me!</a>
-    </button>
-</body>
+    <nav>
+        <h1>
+            <div class="square">Ps</div>Игры
+            <img src="controller.svg" width="50px" alt="">
+        </h1>
+        <div class="links">
+            <div class="dropdown" style="margin: 10px;">
+                <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                  Все жанры
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li><a class="dropdown-item" href="game/Жанр/Экшен.html">Экшен</a></li>
+                  <li><a class="dropdown-item" href="game/Жанр/Симуляторы.html">Симуляторы</a></li>
+                  <li><a class="dropdown-item" href="game/Жанр/Гонкы.html">Гонкы</a></li>
+                </ul>
+              </div>
+
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Поиск..." aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Поиск</button>
+              </form>
+              <a class="btn btn-outline-primary" style="margin: 10px;" href="Войти.html" role="button">Регистрация</a>
+        </div>
+        <a href="#" class="btv">
+            <div></div>
+            <div></div>
+            <div></div>
+        </a>
+    </nav>
+    <div class="contener">
+        <div><h1>Хиты Продаж</h1>
+            <p>PES20. The last of us. Assassins-creed Valhalla. Cyberpunk. Days-Gone.Fallout.Fifa 2020. Avengers. Watch Dogs: Legion</p>   
+            </div>
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" style="width: 80%; margin-left: 10%;" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+              <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="pes2020-splash-screen.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="assassins-creed.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="Cyberpunk.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="the-last-of-us-part-2-1.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev btn-outline-secondary" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next btn-outline-secondary" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+    <div class="contener">
+        <div><h1>Популярные игры на PlayStation 4 (PS4) 2020-2021</h1>
+        </div>
+    </div>
+    <div class="row">
+    <div class="card" style="width: 18rem;">
+        <img src="Hitman3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Хитман</h5>
+          <h6 class="card-title">Дата выпуска:13 ноября 2018г.</h6>
+          <h6 class="card-title">Серия: IO Interactive</h6>
+          <h6 class="card-title">Жанр: Стелс-Экшен Выживание</h6>
+          <a href="Hitman2.html" class="btn btn-primary">Подробно</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="the-last-of-us-part-2-fanartwork-br-1920x1080.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Один из нас</h5>
+          <h6 class="card-title">Дата выпуска:30 июля 2019г.</h6>
+          <h6 class="card-title">Серия: Sony  Entertainment</h6>
+          <h6 class="card-title">Жанр: Survival-horror Стелс-Экшен</h6>
+          <a href="The last of us .html" class="btn btn-primary">Подробно</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="pes2020-splash-screen.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Пес 2020</h5>
+          <h6 class="card-title">Дата выпуска:30 июля 2019г.</h6>
+          <h6 class="card-title">Серия: Pro Evolution Soccer</h6>
+          <h6 class="card-title">Жанр: Спортивный Симулятор</h6>
+          <a href="Pes2020..html" class="btn btn-primary">Подробно</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="assassins-creed.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ассасин Крид</h5>
+          <h6 class="card-title">Дата выпуска:10 ноября 2020г.</h6>
+          <h6 class="card-title">Серия: Ubisoft Sony</h6>
+          <h6 class="card-title">Жанр:  Action RPG Симулятор</h6>
+          <a href="Assasin.html" class="btn btn-primary">Подробно</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Grand auto.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Grand theft auto v</h5>
+          <h6 class="card-title">Дата выпуска:17 сентября 2013г.</h6>
+          <h6 class="card-title">Серия:  Rockstar North</h6>
+          <h6 class="card-title">Жанр:  action-adventure открытым миром</h6>
+          <a href="Grand.html" class="btn btn-primary">Подробно</a>
+        </div>
+      </div>
+        <div class="card" style="width: 18rem;">
+            <img src="days-gone-1-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Days-Gone</h5>
+              <h6 class="card-title">Дата выпуска:26 апреля 2019г.</h6>
+              <h6 class="card-title">Серия: Sony Entertainment</h6>
+              <h6 class="card-title">Жанр:  Приключенческого боевика</h6>
+              <a href="Days-gone.html" class="btn btn-primary">Подробно</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="fallout-4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Fallout-4</h5>
+              <h6 class="card-title">Дата выпуска:17 сентября 2013г.</h6>
+              <h6 class="card-title">Серия: Sony Entertainment</h6>
+              <h6 class="card-title">Жанр:  Приключенческого боевика</h6>
+              <a href="Fallout.html" class="btn btn-primary">Подробно</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="Cyberpunk.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">CyberPunk 2077</h5>
+              <h6 class="card-title">Дата выпуска:13 июля 2020г.</h6>
+              <h6 class="card-title">Серия: CD Projekt RED</h6>
+              <h6 class="card-title">Жанр:  Приключенческого боевика</h6>
+              <a href="Cyber.html" class="btn btn-primary">Подробно</a>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem;">
+            <img src="ghost.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ghost</h5>
+              <h6 class="card-title">Дата выпуска:20 сентября 2020г.</h6>
+              <h6 class="card-title">Серия: Sony Entertainment</h6>
+              <h6 class="card-title">Жанр:  Приключенческого боевика</h6>
+              <a href="Ghost.html" class="btn btn-primary">Подробно</a>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="..." class="nav-eq">
+            <ul class="pagination">
+                <li class="page-item disabled">
+                    <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Предыдущий</a>
+              </li>
+              <li class="page-item active" aria-current="page">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="indeks.html">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="indeks.html">Cледующий</a>
+              </li>
+            </ul>
+          </nav>
+    <nav class="nav-el">
+        <div>
+            <img src="svg.PNG" alt="">
+            <h1>Скачать игру бесплатно </h1>
+            <p>You don't need to be an expert developer to harness the user friendly simplicity and flexibility of Square.</p>
+        </div>
+        <div>
+            <img src="svg2.PNG" alt="">
+            <h1>Выберите любимую игру</h1>
+            <p>Taking design cues from Swiss design and typography, Square offers elegant, contemporary page layouts.</p>
+        </div>
+        <div>
+            <img src="svg3.PNG" alt="">
+            <h1>Напишите в комментариях</h1>
+            <p>Extensive documentation covering all components and tools makes implementation as elegant as the design</p>
+        </div>
+    </nav>
+    <img src="collage-2.jpg" class="img-fluid" alt="...">
+        <div class="contener1">
+            <div class="contener">
+                <h3>Игры</h3>
+                 <p>Любишь игры? Военное и историческое игр, драмы и криминальные боевики, Стелс и экшены, триллеры и фантастика – любой игрок найдет здесь игр по вкусу. Выбери жанр, который соответствует твоему настроению, и начинай играт на ...... прямо сейчас на .....</p>
+            </div>
+        </div>
+        <nav class="nav-el">
+          <img src="Снимок.PNG" alt="">
+        </nav>
+        <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>    
 </html>
